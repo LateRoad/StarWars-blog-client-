@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- for-mobile-apps -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <script type="application/x-javascript"> addEventListener("load", function () {
+        setTimeout(hideURLbar, 0);
+    }, false);
+
+    function hideURLbar() {
+        window.scrollTo(0, 1);
+    } </script>
+    <!-- //for-mobile-apps -->
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="css/style-blog.css" rel="stylesheet" type="text/css" media="all"/>
+    <!-- js -->
+    <script data-main="js/main" src="js/lib/require.js"></script>
+    <!-- start-smoth-scrolling -->
+</head>
+
+<body>
+<div class="sign-up-form">
+    <h3>Post Creation</h3>
+    <div class="sign-up">
+        <h5>Post Information</h5>
+        <div class="sign-u">
+            <div class="sign-up1">
+                <h4 class="a">Title :</h4>
+            </div>
+            <div class="sign-up2">
+                <form>
+                    <input type="text" id="titleField" placeholder=" " required=" "/>
+                </form>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="sign-u post-description">
+            <div class="sign-up1">
+                <h4 class="b">Text :</h4>
+            </div>
+            <div class="sign-up2">
+                <form>
+                    <textarea rows="10" cols="45" id="descriptionField" name="text"></textarea>
+                </form>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="sign-u">
+            <div class="sign-up1">
+                <h4 class="c">Tags (throw ', ' ) :</h4>
+            </div>
+            <div class="sign-up2">
+                <form>
+                    <input type="text" id="tagsField" placeholder=" " required=" "/>
+                </form>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="sign-u">
+            <div class="sign-up1">
+                <h4 class="c">Image URL :</h4>
+            </div>
+            <div class="sign-up2">
+                <form>
+                    <input type="text" id="urlField" placeholder=" " required=" "/>
+                </form>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <form action="index.html">
+            <input type="submit" id="createPostButton" value="Create">
+        </form>
+    </div>
+</div>
+<footer>
+    <div class="footer-bottom">
+        <div class="container">
+            <p>© 2017 Star Wars. All rights reserved | Design by LateRoad</p>
+        </div>
+    </div>
+</footer>
+<!-- //footer -->
+<!-- for bootstrap working -->
+<script src="js/lib/bootstrap.js"></script>
+<!-- //for bootstrap working -->
+</body>
+</html>
